@@ -1,0 +1,32 @@
+{
+  "cutomers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "phone": "380501234567",
+      "address": "123 Sun Street",
+      "membership": "Platinum"
+    },
+    {
+      "id": 2,
+      "name": "Ivan Dorn",
+      "phone": "380502345678",
+      "address": "234 Moon Street",
+      "membership": "Basic"
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "phone": "3805034567890",
+      "address": "345 Star Street",
+      "membership": "Pro"
+    },
+    {
+      "id": 4,
+      "name": "John Doe",
+      "phone": "3805045678901",
+      "address": "456 Earth Street",
+      "membership": "Basic"
+    }
+  ]
+}

@@ -12,7 +12,7 @@ export enum PATHS {
   unread = 'unread',
   read = 'read',
 
-  // Lifecycle hooks
+  // LIFECYCLE HOOKS
   hooks = 'hooks',
   onchanges = 'on-changes',
   oninit = 'on-init',
@@ -23,7 +23,7 @@ export enum PATHS {
   afterviewchecked = 'after-view-checked',
   onoestroy = 'on-destroy',
 
-  // Forms
+  // FORMS
   forms = 'forms',
   reactive = 'reactive-forms',
   template = 'template-driven-forms',
@@ -31,6 +31,7 @@ export enum PATHS {
   // NgRX
   ngrx = 'ngrx',
   beginner = 'beginner',
+  advanced = 'advanced',
 
 
   notfound = '404',

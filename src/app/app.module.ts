@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
+import { StoreModule } from "@ngrx/store";
 import { AnimalsComponent } from './components/animals/animals.component';
 import { CatComponent } from './components/cat/cat.component';
 import { DogComponent } from './components/dog/dog.component';
@@ -53,12 +53,10 @@ import { RxjsBaseComponent } from './components/rxjs/rxjs-base/rxjs-base.compone
 import { RxjsOverviewComponent } from './components/rxjs/operators/rxjs-overview/rxjs-overview.component';
 import { SubjectComponent } from './components/rxjs/subjects/subject/subject.component';
 import { DatePickerComponent } from './components/angular-material/date-picker/date-picker.component';
-
 import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatIconModule } from '@angular/material/icon';
-
 import { DateAdapter, MAT_DATE_FORMATS, MAT_DATE_LOCALE } from '@angular/material/core';
 import { AppDateAdapter, APP_DATE_FORMATS } from './components/angular-material/date-picker/date.adapter';
 import { ControlValueAccessorComponent } from './components/control-value-accessor/control-value-accessor/control-value-accessor.component';
@@ -68,6 +66,7 @@ import { TitleInputComponent } from './components/control-value-accessor/title-i
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './@core/core.module';
 import { ElementsComponent } from './components/elements/elements.component';
+import { CustomersModule } from './pages/ngrx/customers/customers.module';
 
 
 @NgModule({
@@ -127,9 +126,11 @@ import { ElementsComponent } from './components/elements/elements.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    StoreModule.forRoot({}),
     CoreModule.forRoot(),
     AppRoutingModule,
     NgbModule,
+    CustomersModule,
     MaterialModule,
     MaterialModule,
     FormsModule,
@@ -139,6 +140,7 @@ import { ElementsComponent } from './components/elements/elements.component';
     MatNativeDateModule,
     MatInputModule,
     MatIconModule,
+    StoreModule.forRoot({}, {}),
   ],
   providers: [
     StudentService,

@@ -2,3 +2,15 @@
 
 Resources
 1. Angular 13 Material Dialog Example – Positions, Fullscreen, Events Tutorial - https://www.freakyjolly.com/angular-material-dialog-example-fullscreen-confirm-paleness/
+
+
+SETTINGS
+
+"start": "ng serve",
+change
+"start": "concurrently \"ng serve\" \"json-server --watch db.json\" ",
+
+npm run start
+
+npm i @ngrx/store @ngrx/effects @ngrx/entity @ngrx/store-devtools @ngrx/router-store
+
