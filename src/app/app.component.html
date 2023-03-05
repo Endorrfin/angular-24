@@ -1,0 +1,398 @@
+
+<router-outlet></router-outlet>
+
+
+
+
+<div class="container">
+
+    <h1 class="head">--> Angular topic <--</h1>
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 1 &#9733;</span>
+                <span> -- Material Dialog -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-parent-dialog></app-parent-dialog>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 2 &#9733;</span>
+                <span> -- Interpolation, binding, two way binding and NgModel -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-binding></app-binding>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 3 &#9733;</span>
+                <span> -- Structural directives: *ngIf, *ngFor, *ngSwitchCase, Class, Style, Attr -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-directives></app-directives>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 4 &#9733;</span>
+                <span> -- Input Output -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-parent></app-parent>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 5 &#9733;</span>
+                <span> -- ng-template, ng-content, ng-container, *ngTemplateOutlet, context -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-parent-unit></app-parent-unit>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 6 &#9733;</span>
+                <span> -- HostBinding & HostListener -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-host></app-host>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 7 &#9733;</span>
+                <span> -- Lifecycle hooks -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-lifecycle-hooks></app-lifecycle-hooks>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 8 &#9733;</span>
+                <span> -- Get @ContentChildren/@ViewChildren using service -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-animals>
+                        <app-cat appLink></app-cat>
+                        <app-dog appLink></app-dog>
+                        <app-rock></app-rock>
+                        <app-fox appLink></app-fox>
+                        <p>just an element</p>
+                    </app-animals>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 9 &#9733;</span>
+                <span> -- Опция директивы exportAs для экспорта контроллера -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-colory></app-colory>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 10 &#9733;</span>
+                <span> -- Using Decorator @Attribute -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-parent-greetings></app-parent-greetings>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 11 &#9733;</span>
+                <span> -- Passing Multiple Parameters to a Structural Directive -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-delay></app-delay>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 12 &#9733;</span>
+                <span> -- Dynamic components -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-delay></app-delay>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 13 &#9733;</span>
+                <span> -- How work Angular Elements -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-hello name="John">
+                        <h2>SOMETHING!</h2>
+                    </app-hello>
+
+                    <app-hello name="Alice"></app-hello>
+                    <app-hello name="Nick"></app-hello>
+                    <app-hello name="Bill"></app-hello>
+
+                    <script>
+                        const el = document.querySelector('app-hello');
+                        el.setAttribute('name', 'Elon');
+                        el.addEventListener('clicked', event => console.log(event.detail));
+                        el.innerHTML = '<h2>NOTHING!</h2>';
+                    </script>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 14 &#9733;</span>
+                <span> -- Mat Dialog -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-first-dialog></app-first-dialog>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 15 &#9733;</span>
+                <span> -- Interaction -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-interaction></app-interaction>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+  <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span class="star-title">&#9733; Angular 16 &#9733;</span>
+        <span> -- Date picker -- </span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+
+        <div class="container">
+          <app-date-picker></app-date-picker>
+        </div>
+
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+
+  <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span class="star-title">&#9733; Angular 17 &#9733;</span>
+        <span> -- Control-value-accessor -- </span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+
+        <div class="container">
+          <app-control-value-accessor></app-control-value-accessor>
+        </div>
+
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; Angular 00 &#9733;</span>
+                <span> -- SOME TITLE -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    SOME COMPONENT
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+
+
+<!--    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">-->
+<!--        <ngb-panel>-->
+<!--            <ng-template ngbPanelTitle>-->
+<!--                <span>&#9733; <b>Fancy</b> title &#9733;</span>-->
+<!--            </ng-template>-->
+<!--            <ng-template ngbPanelContent>-->
+<!--                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon-->
+<!--                officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf-->
+<!--                moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim-->
+<!--                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher-->
+<!--                vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't-->
+<!--                heard of them accusamus labore sustainable VHS.-->
+<!--            </ng-template>-->
+<!--        </ngb-panel>-->
+
+<!--        <ngb-panel title="Simple">-->
+<!--            <ng-template ngbPanelContent>-->
+<!--                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon-->
+<!--                officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf-->
+<!--                moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim-->
+<!--                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher-->
+<!--                vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't-->
+<!--                heard of them accusamus labore sustainable VHS.-->
+<!--            </ng-template>-->
+<!--        </ngb-panel>-->
+
+<!--        <ngb-panel title="Disabled" [disabled]="false">-->
+<!--            <ng-template ngbPanelContent>-->
+<!--                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon-->
+<!--                officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf-->
+<!--                moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim-->
+<!--                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher-->
+<!--                vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't-->
+<!--                heard of them accusamus labore sustainable VHS.-->
+<!--            </ng-template>-->
+<!--        </ngb-panel>-->
+<!--    </ngb-accordion>-->
+
+</div>
+
+
+
+<div class="container">
+    <h1 class="head">--> RxJS topic <--</h1>
+
+    <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span class="star-title">&#9733; RxJS 1 &#9733;</span>
+                <span> -- RxJS operators in action -- </span>
+            </ng-template>
+            <ng-template ngbPanelContent>
+
+                <div class="container">
+                    <app-rxjs-base></app-rxjs-base>
+                </div>
+
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+</div>
+
+
+
+
+
+
