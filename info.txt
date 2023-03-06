@@ -9,8 +9,15 @@ SETTINGS
 "start": "ng serve",
 change
 "start": "concurrently \"ng serve\" \"json-server --watch db.json\" ",
+or
+"json-run": "json-server --watch db.json"
+npm run json-run
+
 
 npm run start
 
 npm i @ngrx/store @ngrx/effects @ngrx/entity @ngrx/store-devtools @ngrx/router-store
 
+
+
+Angular 14 State Management CRUD Example With NgRx(14) - https://www.learmoreseekmore.com/2022/06/angular-14-statemanagement-crud-example-with-rxjs14.html
